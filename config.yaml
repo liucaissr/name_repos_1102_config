@@ -1,0 +1,34 @@
+generalInformation:
+  serviceAdminEmail: cai.liu@allianz.de
+  gheUsername: liucaissr
+  billingAccount: JEQP
+  billingTeamName: jeqp
+  gheToken: ""
+  adpAccessToken: ""
+jira:
+  adminToken: ""
+  projectKey: d
+  projectName: d
+  leadUsername: d
+  documentationUrl: d
+projectInformation:
+  projectName: testCaisd
+  projectShortName: name_repos_1102
+  buildType: maven
+  testInstance: false
+  preprodInstance: false
+  uatInstance: false
+cloudService:
+  awsOrAzure: eks
+  deploymentLocation: aws_ec1
+automationService:
+  jenkinsOrGithubActions: jenkins
+  jenkinsAdmin: jenkins_admin
+  jenkinsDeveloper: jenkins_developer
+  kubernetesAccess: jenkins_k8s
+  kvUserOrGroupName: jenkins_kv
+gheOrganization:
+  organizationName: liucaissr
+  isNew: false
+testingTools:
+  sonarQube: true
